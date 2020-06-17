@@ -1,0 +1,123 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Book1",
+    "isbn": "10982",
+    "aisle": "1234",
+    "author": "Mahesh1"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=109821234
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=109821234
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?AuthorName
+Proxy:			<none>
+Request params:	<none>
+Query params:	AuthorName
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?AuthorName=Invalid%20Author%20Name
+Proxy:			<none>
+Request params:	<none>
+Query params:	AuthorName=Invalid Author Name
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=109821234
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=109821234
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=0987IVID
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=0987IVID
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": "109821234"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": "109821234"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": ""
+}
